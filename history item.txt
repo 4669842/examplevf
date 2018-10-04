@@ -1,0 +1,15 @@
+[&History "Phone Call to Other Side Solicitor",category="Solicitor"]
+
+Include this code in a document script or postscript of a document or a form.
+
+[&History "Test Document",save,amend]
+
+ 
+
+We recommend that this syntax is used for the save and category parameters, where "LETOC" is a user-defined category code.
+
+[&History "Wrote to "+SOL01;'Enter subject of letter'(notes),LETO,2,save,category="LETOC"]
+
+For backward compatibility, the &History command still supports the previous, bracketed, syntax for these parameters, example below (LETOC is a user-defined category code):
+
+[&History "Wrote to "+SOL01;'Enter subject of letter'(notes),LETO,2,save("LETOC")]

@@ -4,8 +4,6 @@ Include this code in a document script or postscript of a document or a form.
 
 [&History "Test Document",save,amend]
 
- 
-
 We recommend that this syntax is used for the save and category parameters, where "LETOC" is a user-defined category code.
 
 [&History "Wrote to "+SOL01;'Enter subject of letter'(notes),LETO,2,save,category="LETOC"]
